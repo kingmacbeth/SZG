@@ -1,8 +1,39 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
+    background-color: black;
 }
 
-body {
-    background-color: black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbbbbb;
+}
+
+li :first-child {
+    border-left: 1px solid #bbbbbb;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color: #555353;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4caf50;
 }
